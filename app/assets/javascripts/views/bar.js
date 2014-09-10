@@ -26,9 +26,6 @@ PersonalPageTerminal.Views.Bar = Backbone.View.extend({
     } else if (entered.command === "cd Projects") {
       var projectsView = new PersonalPageTerminal.Views.Projects();
       $(document).find("#prepend-with-content").append(projectsView.render().$el);
-    // } else if (entered.command === "cd Contact") {
-//       var contactView = new PersonalPageTerminal.Views.Contact();
-//       $(document).find("#prepend-with-content").append(contactView.render().$el);
     } else if (entered.command === "ls") {
       var listView = new PersonalPageTerminal.Views.List();
       $(document).find("#prepend-with-content").append(listView.render().$el);
