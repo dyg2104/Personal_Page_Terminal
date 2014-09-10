@@ -15,8 +15,8 @@
  */
 
 body {
-/*    background:#d2dfe6;*/
-  background: black;
+    background:#d2dfe6;
+/*  background: black;*/
   color: #444;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.5em;
@@ -377,10 +377,10 @@ body {
     font-family: Andale Mono, monospace;  line-height: 1em;
     font-size:13px;
     float: left;
-    width: 100%;
+    width: 95%;
     min-height:130px;
     background:white;
-    padding:10px;
+    padding:25px;
     line-height:1.5em;
 }
 #body p {
@@ -482,3 +482,24 @@ body {
 .icon .folder{
     margin:15px 0 0 6px;
 }
+
+
+
+/* Resume */
+
+.resume {
+/*  display: block;*/
+
+/*  width: 50px;*/
+/*  height: 100px;*/
+/*  overflow: hidden;*/
+}
+
+.resume img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+/*  margin: auto;*/
+  clear: both;
+}
+

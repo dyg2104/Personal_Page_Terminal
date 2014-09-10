@@ -16,20 +16,24 @@ PersonalPageTerminal.Views.Bar = Backbone.View.extend({
   renderPage: function(event) {
     event.preventDefault();
     var entered = $(".bar-input-form").serializeJSON();
-    console.log(entered.command.toString());
-    if (entered.command === "cd bio") {
+
+    if (entered.command === "cd Bio") {
       var bioView = new PersonalPageTerminal.Views.Bio();
-      $(document).find("#prepend-with-content").prepend(bioView.render().$el);
-    } else if (entered.command === "cd resume") {
+      $(document).find("#prepend-with-content").append(bioView.render().$el);
+    } else if (entered.command === "cd Resume") {
       var resumeView = new PersonalPageTerminal.Views.Resume();
-      $(document).find("#prepend-with-content").prepend(resumeView.render().$el);
-    } else if (entered.command === "cd projects") {
+      $(document).find("#prepend-with-content").append(resumeView.render().$el);
+    } else if (entered.command === "cd Projects") {
       var projectsView = new PersonalPageTerminal.Views.Projects();
-      $(document).find("#prepend-with-content").prepend(projectsView.render().$el);
-    } else if (entered.command === "cd contact") {
-      var contactView = new PersonalPageTerminal.Views.Contact();
-      $(document).find("#prepend-with-content").prepend(contactView.render().$el);
+      $(document).find("#prepend-with-content").append(projectsView.render().$el);
+    // } else if (entered.command === "cd Contact") {
+//       var contactView = new PersonalPageTerminal.Views.Contact();
+//       $(document).find("#prepend-with-content").append(contactView.render().$el);
+    } else if (entered.command === "ls") {
+      var listView = new PersonalPageTerminal.Views.List();
+      $(document).find("#prepend-with-content").append(listView.render().$el);
     }
+
     this.$el.find(".bar-input-form").trigger("reset");
   }
 });
