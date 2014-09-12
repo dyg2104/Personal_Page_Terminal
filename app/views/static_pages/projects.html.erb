@@ -38,7 +38,26 @@
         <div class="terminal-prompt">
           * ~$ ls
         </div>
-        Bio Resume Projects Contact
+        
+        <div class="ls-tabs">
+          <div class="ls-tabs-left">
+            <a href="/bio">Bio</a>
+            <a href="/resume">Resume</a>
+            <a href="/projects">Projects</a>
+          </div>
+
+          <div class="ls-tabs-right">
+            <a href="mailto:dyg2104@gmail.com">
+              dyg2104@gmail.com
+            </a>
+            <a href="http://www.linkedin.com/pub/daniel-gonzalez/21/829/611" target="_blank">
+              Linkedin
+            </a>
+            <a href="https://github.com/dyg2104" target="_blank">
+              Github
+            </a>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -48,132 +67,142 @@
         <br>
 
         <div class="project">
-          <div>
-            Image
+          <div class="project-image">
+            <img src="/assets/feeder_screenshot.png">
           </div>
 
-          <div>
+          <div class="project-text-one">
             <h1 class="project-title">
               Feeder
             </h1>
             <h2 class="project-technologies">
               Ruby on Rails and Backbone.js
             </h2>
-            <p class="project-description">
-              A clone of the popular news reading app Feedly
-            </p>
-            <p class="project-description">
-              Opens rss feeds, parses xml documents representing news articles, and saves the data in a server
-            </p>
-            <p class="project-description">
-            Allows users to view and save articles using Backbone.js, AJAX requests, and customized API’s.
-            </p>
-            <p class="project-description">
-            Ensures only one Backbone model of every Rails model exists in the application, significantly improving performance
-            </p>
-            <p class="project-links">
-            live | github
-            </p>
+						<ul>
+	            <li class="project-description">
+	              A clone of the popular news reading app Feedly
+							</li>
+	            <li class="project-description">
+	              Opens rss feeds, parses xml documents representing news articles, and saves the data in a server
+							</li>
+	            <li class="project-description">
+	              Allows users to view and save articles using Backbone.js, AJAX requests, and customized API’s.
+						  </li>
+	            <li class="project-description">
+	              Ensures only one Backbone model of every Rails model exists in the application, significantly improving performance
+						  </li>
+					  </ul>
+            <div class="project-links">
+              live | github
+					  </div>
           </div>
         </div>
 
         <div class="project">
-          <div>
-            image
+          <div class="project-image">
+            <img src="/assets/personal_page_terminal.png">
           </div>
 
-          <div>
+          <div class="project-text-two">
             <h1 class="project-title">
               Personal Page - Terminal
             </h1>
             <h2 class="project-technologies">
               Ruby on Rails and Backbone.js
             </h2>
-            <p class="project-description">
-              Builds a terminal like website which accepts cd and ls commands
-            </p>
-            <p class="project-description">
-              Displays personal information upon input
-            </p>
-            <p class="project-description">
-              More features to come!
-            </p>
+						<ul>
+	            <li class="project-description">
+	              Builds a terminal like website which accepts cd and ls commands
+							</li>
+	            <li class="project-description">
+	              Displays personal information upon input
+							</li>
+	            <li class="project-description">
+	              More features to come!
+							</li>
+					  </ul>
 
-            <p class="project-links">
+            <div class="project-links">
               live | github
-            </p>
+						</div>
           </div>
         </div>
 
         <div class="project">
-          <div>
-            Image
+          <div class="project-image">
+            <img src="/assets/feeder_screenshot.png">
           </div>
 
-          <div>
+          <div class="project-text-three">
             <h1 class="project-title">
               Asteroids
             </h1>
             <h2 class="project-technologies">
               Javascript and HTML5 Canvas
             </h2>
-            <p class="project-description">
-              Handles the logic of the game using object-oriented programming in JS
-            </p>
-            <p class="project-description">
-              Renders the game in a HTML5 canvas element
-            </p>
-            <p class="project-links">
+						<ul>
+	            <li class="project-description">
+	              Handles the logic of the game using object-oriented programming in JS
+							</li>
+	            <li class="project-description">
+	              Renders the game in a HTML5 canvas element
+							</li>
+					  </ul>
+            <div class="project-links">
               live | github
-            </p>
+						</div>
           </div>
         </div>
 
         <div class="project">
-          <div>
-            Image
+          <div class="project-image">
+            <img src="/assets/tic_tac_toe.png">
           </div>
 
-          <div>
+          <div class="project-text-four">
             <h1 class="project-title">
               Tic-Tac-Toe
             </h1>
             <h2 class="project-technologies">
               Ruby
             </h2>
-            <p class="project-description">
-              Separates the game into Ruby classes representing the board, game logic, human moves, and computer moves
-            </p>
-            <p class="project-description">
-              Creates a computer AI that uses depth first search to choose only winning or tying moves
-            </p>
-            <p class="project-links">
+						<ul>
+	            <li class="project-description">
+	              Separates the game into Ruby classes representing the board, game logic, human moves, and computer moves
+							</li>
+	            <li class="project-description">
+	              Creates a computer AI that uses depth first search to choose only winning or tying moves
+							</li>
+					  </ul>
+            <div class="project-links">
               github
-            </p>
+						</div>
           </div>
         </div>
 
         <div class="project">
-          <div>
-            Image
+          <div class="project-image">
+            <img src="/assets/hangman.png">
           </div>
 
-          <div>
+          <div class="project-text-five">
             <h1>Hangman</h1>
             <h2>Ruby</h2>
-            <p class="project-description">
-              Separates the game into Ruby classes representing the logic and display of the game, human choices, and computer choices
-            </p>
-            <p class="project-description">
-              Allows a person to guess against the computer's choice of word or for a computer to guess against a person's choice
-            </p>
-            <p class="project-description">
-              Creates a computer AI that reads a txt file of words to form possible guesses and dwindles the possible choices based on the size of the word and previous guesses
-            </p>
+						<ul>
+		          <li class="project-description">
+		            Separates the game into Ruby classes representing the logic and display of the game, human choices, and computer choices
+							</li>
+		          <li class="project-description">
+		            Allows a person to guess against the computer's choice of word or for a computer to guess against a person's choice
+							</li>
+		          <li class="project-description">
+		            Creates a computer AI that reads a txt file of words to form possible guesses and dwindles the possible choices based on the size of the word and previous guesses
+							</li>
+					  </ul>
 
-            <p class="project-links">
+            <div class="project-links">
               github
-            </p>
+						</div>
           </div>
         </div>
 

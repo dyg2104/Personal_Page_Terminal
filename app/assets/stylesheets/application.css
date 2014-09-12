@@ -482,6 +482,7 @@ body {
     margin:15px 0 0 6px;
 }
 
+
 /* Instructions */
 
 .instructions {
@@ -512,6 +513,36 @@ body {
   display: block;
   color: #F75A22;
   clear: both;
+}
+
+/* Bar */
+
+.bar-input {
+	margin-top: 20px;
+	clear: both;
+}
+
+.bar-text {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: green;
+}
+
+.bar-terminal-prompt {
+  display: inline-block;
+  color: #F75A22;
+  clear: both;
+}
+
+.bar-input-form { 
+	display: inline-block;
+/*	border-bottom: 1px solid black;*/
+}
+
+.bar-input-form input[type=text] {
+	width: 210%;
+/*	border: none;*/
 }
 
 /* List */
@@ -548,6 +579,27 @@ body {
   clear: both;
 }
 
+/* Bio */
+
+.bio-h1 {
+	margin-bottom: 0;
+	color: green;
+}
+
+.bio-h2 {
+	margin-bottom: 10px;
+	color: green;
+}
+
+.bio-text {
+	display: block;
+	margin-bottom: 20px;
+	line-height: 1.5;
+/*	padding: 0;*/
+/*	background: red;*/
+	font-size: 14px;
+}
+
 /* Resume */
 
 .resume {
@@ -559,3 +611,131 @@ body {
   height: auto;
   clear: both;
 }
+
+.resume-pdf {
+/*	display: block;*/
+	margin-bottom: 5px;
+}
+
+/* Projects */
+
+.project {
+	display: block;
+/*	position: relative;*/
+/*	margin-bottom: 30px;*/
+	border-bottom: 1px solid gray;
+	
+}
+
+.project-image {
+	display:inline-block;
+/*	float: left;*/
+	margin-right: 50px;
+	width: 45%;
+/*	clear: right;*/
+
+/*	background: red;*/
+}
+
+.project-image > img {
+	max-width: 100%;
+	height: auto;
+}
+
+.project-text-one {
+	display: inline-block;
+	position: relative;
+	top: -75px;
+	max-width: 42%;
+}
+
+.project-text-one h1 {
+	text-align: center;
+	color: blue;
+}
+
+.project-text-one h2 {
+	font-size: 16px;
+	text-align: center;
+	color: blue;
+}
+
+
+.project-text-two {
+	display: inline-block;
+	position: relative;
+	top: -125px;
+	max-width: 42%;
+}
+
+.project-text-two h1 {
+	text-align: center;
+	color: blue;
+}
+
+.project-text-two h2 {
+	font-size: 16px;
+	text-align: center;
+	color: blue;
+}
+
+.project-text-three {
+	display: inline-block;
+	position: relative;
+	top: -140px;
+	max-width: 42%;
+}
+
+.project-text-three h1 {
+	text-align: center;
+	color: blue;
+}
+
+.project-text-three h2 {
+	font-size: 16px;
+	text-align: center;
+	color: blue;
+}
+
+.project-text-four {
+	display: inline-block;
+	position: relative;
+	top: -115px;
+	max-width: 42%;
+}
+
+.project-text-four h1 {
+	text-align: center;
+	color: blue;
+}
+
+.project-text-four h2 {
+	font-size: 16px;
+	text-align: center;
+	color: blue;
+}
+
+.project-text-five {
+	display: inline-block;
+	position: relative;
+	top: -25px;
+	max-width: 42%;
+}
+
+.project-text-five h1 {
+	text-align: center;
+	color: blue;
+}
+
+.project-text-five h2 {
+	font-size: 16px;
+	text-align: center;
+	color: blue;
+}
+
+.project-links {
+	text-align: center;
+	color: blue;
+}
+
+
