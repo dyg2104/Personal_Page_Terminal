@@ -5,11 +5,13 @@ window.PersonalPageTerminal = {
   Routers: {},
   initialize: function() {
     alert('Hello from Backbone!');
-    new PersonalPageTerminal.Routers.PersonalPageRouter();
-    Backbone.history.start();
+
+    var barView = new PersonalPageTerminal.Views.Bar({});
+    $(document).find('#replace-with-bar').replaceWith(barView.render().$el);
+		
+    var router = new PersonalPageTerminal.Routers.PersonalPageRouter();
+		if (!Backbone.History.started) {
+			Backbone.history.start();
+		}
   }
 };
-
-$(document).ready(function(){
-  PersonalPageTerminal.initialize();
-});
