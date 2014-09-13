@@ -4,8 +4,6 @@ window.PersonalPageTerminal = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backbone!');
-
     var barView = new PersonalPageTerminal.Views.Bar({});
     $(document).find('#replace-with-bar').replaceWith(barView.render().$el);
 		
