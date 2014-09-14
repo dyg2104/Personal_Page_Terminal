@@ -124,7 +124,6 @@ body {
      width: 4px;
      height:3px;
      border-radius:10px;
-     /*background-image: -webkit-gradient(radial, center center, 0, center center, 3, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));*/
      background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
      background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
      background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -383,16 +382,16 @@ body {
 
 @keyframes blink
 {
-	0%   {  background:rgba(99,222,0,100);  }
-	100% {  background:rgba(99,222,0,0);  }
+	0%   {  background:rgba(99,222,0,1.0);  }
+	100% {  background:rgba(99,222,0,1.0);  }
 }
 
 @-webkit-keyframes blink {
-	0%   {  background:rgba(99,222,0,100);  }
+	0%   {  background:rgba(99,222,0,1.0);  }
 	100% {  background:rgba(99,222,0,0);  }
 }
 @-moz-keyframes blink {
-	0%   {  background:rgba(99,222,0,100);  }
+	0%   {  background:rgba(99,222,0,1.0);  }
 	100% {  background:rgba(99,222,0,0);  }
 }
 .cursor {
