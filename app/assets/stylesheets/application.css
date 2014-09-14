@@ -643,7 +643,7 @@ body {
 .project-text-two {
 	display: inline-block;
 	position: relative;
-	top: -125px;
+	top: -135px;
 	max-width: 42%;
 }
 
@@ -661,7 +661,7 @@ body {
 .project-text-three {
 	display: inline-block;
 	position: relative;
-	top: -150px;
+	top: -200px;
 	max-width: 42%;
 }
 
@@ -679,7 +679,7 @@ body {
 .project-text-four {
 	display: inline-block;
 	position: relative;
-	top: -115px;
+	top: -150px;
 	max-width: 42%;
 }
 
@@ -697,7 +697,7 @@ body {
 .project-text-five {
 	display: inline-block;
 	position: relative;
-	top: -25px;
+	top: -115px;
 	max-width: 42%;
 }
 
