@@ -17,13 +17,13 @@ PersonalPageTerminal.Views.Bar = Backbone.View.extend({
     event.preventDefault();
     var entered = $(".bar-input-form").serializeJSON();
 
-    if (entered.command === "cd Bio" || entered.command === "cd bio") {
+    if (entered.command === "cat Bio" || entered.command === "cat bio") {
       var bioView = new PersonalPageTerminal.Views.Bio();
       $(document).find("#prepend-with-content").append(bioView.render().$el);
-    } else if (entered.command === "cd Resume" || entered.command === "cd resume") {
+    } else if (entered.command === "cat Resume" || entered.command === "cat resume") {
       var resumeView = new PersonalPageTerminal.Views.Resume();
       $(document).find("#prepend-with-content").append(resumeView.render().$el);
-    } else if (entered.command === "cd Projects" || entered.command === "cd projects") {
+    } else if (entered.command === "cat Projects" || entered.command === "cat projects") {
       var projectsView = new PersonalPageTerminal.Views.Projects();
       $(document).find("#prepend-with-content").append(projectsView.render().$el);
     } else if (entered.command === "ls") {
