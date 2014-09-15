@@ -481,6 +481,7 @@ body {
 .instructions {
   display: block;
   position: fixed;
+  z-index: 10000;
   top: 5px;
   right: 5px;
   background: white;
@@ -527,7 +528,7 @@ body {
   clear: both;
 }
 
-.bar-input-form { 
+.bar-input-form {
 	display: inline-block;
 }
 
@@ -607,7 +608,7 @@ body {
 .project {
 	display: block;
 	border-bottom: 1px solid gray;
-	
+
 }
 
 .project-image {
