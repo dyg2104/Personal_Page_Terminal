@@ -607,6 +607,13 @@ body {
 
 .project {
 	display: block;
+  border-bottom: 1px solid black;
+  clear: both;
+}
+
+.project:after {
+  content: " ";
+  display: block;
   clear: both;
 }
 
